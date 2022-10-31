@@ -19,11 +19,11 @@ echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.co
 
 #====================================================================
 # 添加插件源码
-sed -i '$a src-git-full kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
+#sed -i '$a src-git-full kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
 #sed -i '$a src-git-full Boos4721 https://github.com/Boos4721/OpenWrt-Packages' feeds.conf.default
 
 # Argon_dark_purple
 #sed -i '$a src-git-full liuran001 https://github.com/liuran001/openwrt-packages' feeds.conf.default
 
 # passwall依赖
-sed -i '$a src-git-full small https://github.com/kenzok8/small' feeds.conf.default
+#sed -i '$a src-git-full small https://github.com/kenzok8/small' feeds.conf.default
